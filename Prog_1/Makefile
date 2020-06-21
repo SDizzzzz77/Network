@@ -1,0 +1,7 @@
+all: main
+
+main: task_1.cpp
+	g++ main.cpp
+
+clean:
+	rm a.out
